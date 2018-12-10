@@ -5,8 +5,8 @@ p {
 html, body {
     max-width: 100%;
     overflow-x: hidden;
-    background: url("../images/background.jpg") fixed no-repeat;
-    background-size: 100%;
+    background: url("https://images.unsplash.com/photo-1483354483454-4cd359948304?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80") fixed no-repeat;
+    background-size: cover;
     background-color: black;
 }
 
@@ -33,18 +33,18 @@ blockquote{
 
 #cohort22{
     display: inline-block;
-    color: #238193;
+    color: rgba(0,0,0,.5);
 }
 
 #jumbheader{
-    box-shadow: 2px 2px 2px rgb(167, 166, 166);
-    background-color: #238193!important;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+    background-color: rgb(72, 107, 132)!important;
     color: lightgray;
 
 }
 .header-text{
     margin: 0 auto;
-    padding-top: 10px;
+    padding-top: 7px;
     font-weight: bold;
     height: 50px;
     color: white;
@@ -117,9 +117,9 @@ main {
 }
 
 .cohort-card.cohortMems{
-    border: 1px solid lightgray;
+    /* border: 1px solid lightgray; */
     border-radius: 10px;
-    box-shadow: 2px 2px 2px lightgray;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
     margin: 5px;
     margin-bottom: 20px;
     background: white;
@@ -176,7 +176,7 @@ main {
   }
 
   .contactIcons{
-      color: #238193;
+      color: rgb(72, 107, 132);
   }
   .contactIcons:hover{
       transform: scale(1.2);
@@ -184,7 +184,7 @@ main {
 
   .modal-header{
     background-color: lightgray!important;
-    color: #238193;
+    color: rgb(72, 107, 132);
   }
 
   .modal-body img{
@@ -201,26 +201,32 @@ main {
 .navbar.navbar-light.bg-light.footer{
     margin-top:10px;
     font-size: 1em;
-    background-color: #238193!important;
+    background-color: rgb(72, 107, 132)!important;
     color: white;
+    padding: 1em 0;
+}
+
+.footer p{
+    text-align: center;
+    margin: 0 auto;
 }
 
 #demo-date {
     text-align: center;
-    color: #238193!important;
+    color: rgb(72, 107, 132)!important;
 }
 
 button{
     cursor: pointer;
 }
 .btn-outline-primary{
-    color: #238193!important;
-    border-color: #238193!important;
+    color: rgb(72, 107, 132)!important;
+    border-color: rgb(72, 107, 132)!important;
 }
 
 .btn-outline-primary:hover{
     color: white!important;
-    background-color: #238193!important;
+    background-color: rgb(72, 107, 132)!important;
 }
 
 @media (max-width: 768px) {
